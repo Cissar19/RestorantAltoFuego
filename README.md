@@ -1,17 +1,10 @@
-# Restorant contreras
+# Restorant contreras con SASS
 
-Este es un readme del repositorio en donde se explicara lo que se realizo.
+Principalmente se agrego SASS en nuestro proyecto con la ayuda de node npm. Se creo la carpeta sccs/ en donde se pueden encontrar los componentes y pages del proyecto en donde se aplico la tecnologia.
 
-## Git basico
+## Observaciones
 
-Comandos basicos de uso de git.
-
-```bash
-$ git init 
-$ git add .
-$ git commit -m "texto"
-
-
+La pagina seleccionada para el desafio fue la pagina de contacto, header y footer (componentes) tienen sass al igual que el contenido prinicipal de la pagina mencionada.
 
 ```
 
