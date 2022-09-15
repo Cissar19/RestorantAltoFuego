@@ -1,0 +1,14 @@
+{
+  "name": "restorant-contreras",
+  "version": "1.0.0",
+  "description": "Pagina para Coder",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./sas/style.css -w"
+  },
+  "author": "Cesar Contreras",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

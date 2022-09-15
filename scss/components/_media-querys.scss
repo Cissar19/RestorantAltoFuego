@@ -1,0 +1,653 @@
+/* -------------------------------------------------------MEDIAS QUERYS (280px - 364px) :) --------------------------------------------------------------*/
+
+@media (min-width: 280px)  and (max-width: 364px) { 
+
+    .header{ 
+        height: 250px;
+        flex-direction: column; 
+    }
+    
+    
+    .header .logo img{
+        height: 30px;
+        margin-top: 10px;
+    }
+    
+    .header .nav-links{
+        list-style: none;    
+    }
+    
+    .header .nav-links li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;    
+    }
+    
+    .header .nav-links a{
+        display: inline-block;
+        margin-top: 2px;
+        font-size: px;
+        color: #eceff1;
+        flex-direction: column;    
+    }
+    
+    .header .btn button{
+        margin-bottom: 10px;
+    }
+    
+    .img__grid-1{
+        width: 1920px;
+        height: 350px;
+    }
+
+    .img__grid-2{
+        width: 890px;
+        height: 260px;
+    }
+
+    .grid{
+         display: flex;
+        flex-direction: column;  
+    }
+
+    .pie-pagina .grupo-1{
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+    .contacto__imagen-wrapper{
+        display: none;
+    }
+
+
+    .contacto__titulo{
+        display: none;
+    }
+    .contacto__titulo--responsive{
+        display: inline-block;
+        font-size: 35px;
+        font-family: 'Montserrat';
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+    .contacto__right-side{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding:0 7.3% 0 4.7%;
+        width: 100%;
+    }
+    .contacto__label_1{
+        font-size: 35px;
+        color: white;
+    
+    }
+    .mapa{
+        width: 260px; 
+        height:180px;
+
+    }
+
+
+}
+
+/* -------------------------------------------------------MEDIAS QUERYS (365px - 450px) :) --------------------------------------------------------------*/
+
+@media (min-width: 365px)  and (max-width: 450px) { 
+
+    .header{ 
+        height: 250px;
+        flex-direction: column;
+    }
+    
+    .header .logo img{
+        height: 50px;
+        margin-top: 5px;
+    }
+    
+    .header .nav-links li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;    
+    }
+    
+    .header .nav-links a{
+        display: inline-block;
+        margin-top: 5px;
+        font-size: px;
+        color: #eceff1;
+        flex-direction: column;    
+    }
+    
+    .header .btn button{
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+    
+    .img__grid-1{
+        width: 1920px;
+        height: 350px;
+    }
+
+    .img__grid-2{
+        width: 890px;
+        height: 260px;
+    }
+
+    .grid{
+         display: flex;
+        flex-direction: column;  
+    }
+
+    .pie-pagina .grupo-1{
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;   
+    }
+    .contacto__imagen-wrapper{
+        display: none;
+    }
+
+    .contacto__titulo{
+        display: none;
+    }
+
+    .contacto__titulo--responsive{
+        display: inline-block;
+        font-size: 45px;
+        font-family: 'Montserrat';
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+    .container{
+        width: 100%;
+        max-width: 1900px;
+        height: 1500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+    .container__mision{
+        width: 100%;
+        max-width: 1200px;
+        height: 550px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;    
+    }
+    .contacto__right-side{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding:0 7.3% 0 4.7%;
+        width: 100%;
+    }
+    .contacto__label_1{
+        font-size: 35px;
+        color: white;
+    
+    }
+    .mapa{
+        width: 360px; 
+        height:385px;
+
+    }
+
+}
+/* -------------------------------------------------------MEDIAS QUERYS (451px - 584px) :) --------------------------------------------------------------*/
+
+@media (min-width: 451px)  and (max-width: 490px) { 
+
+    .header{ 
+        height: 290px;
+        flex-direction: column;
+    }
+    
+    .header .logo img{
+        height: 50px;
+        margin-top: 5px;
+    }
+    
+    .header .nav-links li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;    
+    }
+    
+    .header .nav-links a{
+        display: inline-block;
+        margin-top: 5px;
+        font-size: 20px;
+        color: #eceff1;
+        flex-direction: column;    
+    }
+    
+    .header .btn button{
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+
+    .img__grid-1{
+        width: 1920px;
+        height: 350px;
+   }
+
+    .img__grid-2{
+        width: 890px;
+        height: 260px;
+    }
+
+    .grid{
+         display: flex;
+        flex-direction: column;  
+    }
+    
+    .pie-pagina .grupo-1{
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+
+    .contacto__imagen-wrapper{
+        display: none;
+    }
+
+    .contacto__titulo{
+        display: none;
+    }
+
+    .contacto__titulo--responsive{
+        display: inline-block;
+        font-size: 45px;
+        font-family: 'Montserrat';
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+    .container{
+        width: 100%;
+        max-width: 1900px;
+        height: 1500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+    .container__mision{
+        width: 100%;
+        max-width: 1200px;
+        height: 550px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;    
+    }
+    .contacto__right-side{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding:0 7.3% 0 4.7%;
+        width: 100%;
+    }
+    .contacto__label_1{
+        font-size: 35px;
+        color: white;
+    
+    }
+
+}
+/* -------------------------------------------------------MEDIAS QUERYS (491px - 584px) :) --------------------------------------------------------------*/
+
+@media (min-width: 491px)  and (max-width: 584px) { 
+
+    .header{ 
+        height: 250px;
+        flex-direction: column;       
+    }
+    
+    .header .logo img{
+        height: 130px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    
+    .header .nav-links li{
+        display: inline-block;
+        align-items: center;
+        padding: 0 20px;   
+        margin-top: 0px; 
+    }
+    
+    .header .nav-links a{
+        display: inline-block;
+        font-size: 15px;
+        color: #eceff1;       
+    }
+    
+    .header .btn button{
+        margin-bottom: 15px;
+        margin-top: 0px;
+    }
+
+    .img__grid-1{
+        width: 1920px;
+        height: 350px;
+   }
+
+    .img__grid-2{
+        width: 890px;
+        height: 260px;
+    }
+
+    .grid{
+         display: flex;
+        flex-direction: column;  
+    }
+    
+    .pie-pagina .grupo-1{
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+
+    .contacto__imagen-wrapper{
+        display: none;
+    }
+
+    .contacto__titulo{
+        display: none;
+    }
+
+    .contacto__titulo--responsive{
+        display: inline-block;
+        font-size: 45px;
+        font-family: 'Montserrat';
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+    .container{
+        width: 100%;
+        max-width: 1900px;
+        height: 1500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+    .container__mision{
+        width: 100%;
+        max-width: 1200px;
+        height: 550px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;    
+    }
+    .contacto__right-side{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding:0 7.3% 0 4.7%;
+        width: 100%;
+    }
+    .contacto__label_1{
+        font-size: 35px;
+        color: white;
+    
+    }
+
+}
+
+/* -------------------------------------------------------MEDIAS QUERYS (585px - 660px) :) --------------------------------------------------------------*/
+
+@media (min-width: 585px)  and (max-width: 660px) { 
+
+    .header{ 
+        height: 250px;
+        flex-direction: column;       
+    }
+    
+    .header .logo img{
+        height: 130px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    
+    .header .nav-links li{
+        display: inline-block;
+        align-items: center;
+        padding: 0 20px;   
+        margin-top: 0px; 
+    }
+    
+    .header .nav-links a{
+        display: inline-block;
+        font-size: 16px;
+        color: #eceff1;       
+    }
+    
+    .header .btn button{
+        margin-bottom: 15px;
+        margin-top: 0px;
+    }
+
+    .img__grid-1{
+        width: 1920px;
+        height: 350px;
+   }
+
+    .img__grid-2{
+        width: 890px;
+        height: 260px;
+    }
+
+    .grid{
+         display: flex;
+        flex-direction: column;  
+    }
+    
+    .pie-pagina .grupo-1{
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+
+    .contacto__imagen-wrapper{
+        display: none;
+    }
+
+    .contacto__titulo{
+        display: none;
+    }
+
+    .contacto__titulo--responsive{
+        display: inline-block;
+        font-size: 45px;
+        font-family: 'Montserrat';
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+    .container{
+        width: 100%;
+        max-width: 1900px;
+        height: 1400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+    .container__mision{
+        width: 100%;
+        max-width: 1200px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;    
+    }
+    .contacto__right-side{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding:0 7.3% 0 4.7%;
+        width: 100%;
+    }
+    .contacto__label_1{
+        font-size: 35px;
+        color: white;
+    
+    }
+}
+/* -------------------------------------------------------MEDIAS QUERYS (661px - 835px) :) --------------------------------------------------------------*/
+@media (min-width: 661px)  and (max-width: 835px) { 
+    .header{ 
+        height: 250px;
+        flex-direction: column;
+       
+    }
+    
+    .header .logo img{
+        height: 130px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    
+    .header .nav-links li{
+        display: inline-block;
+        align-items: center;
+        padding: 0 20px;   
+        margin-top: 0px; 
+    }
+    
+    .header .nav-links a{
+        display: inline-block;
+        font-size: 23px;
+        color: #eceff1;
+            
+    }
+    
+    .header .btn button{
+        margin-bottom: 15px;
+        margin-top: 0px;
+    }
+
+    .img__grid-1{
+        width: 1920px;
+        height: 350px;
+   }
+    .img__grid-2{
+        width: 890px;
+        height: 260px;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;  
+    }
+    .pie-pagina .grupo-1{
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+    .contacto__imagen-wrapper{
+        display: none;
+    }
+    .container{
+        width: 100%;
+        max-width: 1900px;
+        height: 1400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+    .container__mision{
+        width: 100%;
+        max-width: 1000px;
+        height: 310px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;    
+    }
+    .contacto__right-side{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding:0 7.3% 0 4.7%;
+        width: 100%;
+    }
+    .contacto__label_1{
+        font-size: 35px;
+        color: white;
+    
+    }
+
+}
+/* -------------------------------------------------------MEDIAS QUERYS (1080px - 1500px) :) --------------------------------------------------------------*/
+@media (min-width: 831px)  and (max-width: 1079px) { 
+   
+    .container{
+        width: 100%;
+        max-width: 1900px;
+        height: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+    .container__mision{
+        width: 100%;
+        max-width: 1900px;
+        height: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;    
+    }
+    .contacto__right-side{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding:0 7.3% 0 4.7%;
+        width: 100%;
+    }
+    .contacto__label_1{
+        font-size: 55px;
+        color: white;
+    
+    }
+}
+/* -------------------------------------------------------MEDIAS QUERYS (1080px - 1500px) :) --------------------------------------------------------------*/
+@media (min-width: 1080px)  and (max-width: 1500px) { 
+   
+    .container{
+        width: 100%;
+        max-width: 1900px;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+    .container__mision{
+        width: 100%;
+        max-width: 1000px;
+        height: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;  
+    }
+    
+
+}
