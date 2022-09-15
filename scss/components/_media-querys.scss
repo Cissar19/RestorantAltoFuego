@@ -64,14 +64,15 @@
 
     .contacto__titulo{
         display: none;
+        &--responsive{
+            display: inline-block;
+            font-size: 35px;
+            font-family: 'Montserrat';
+            font-weight: 100;
+            margin-bottom: 10px;
+        }
     }
-    .contacto__titulo--responsive{
-        display: inline-block;
-        font-size: 35px;
-        font-family: 'Montserrat';
-        font-weight: 100;
-        margin-bottom: 10px;
-    }
+
     .contacto__right-side{
         display: flex;
         justify-content: center;
@@ -154,15 +155,16 @@
 
     .contacto__titulo{
         display: none;
+        &--responsive{
+            display: inline-block;
+            font-size: 45px;
+            font-family: 'Montserrat';
+            font-weight: 100;
+            margin-bottom: 10px;
+        }
     }
 
-    .contacto__titulo--responsive{
-        display: inline-block;
-        font-size: 45px;
-        font-family: 'Montserrat';
-        font-weight: 100;
-        margin-bottom: 10px;
-    }
+
     .container{
         width: 100%;
         max-width: 1900px;
@@ -171,16 +173,18 @@
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
+
+        &__mision{
+            width: 100%;
+            max-width: 1200px;
+            height: 550px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: auto;    
+        }
     }
-    .container__mision{
-        width: 100%;
-        max-width: 1200px;
-        height: 550px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: auto;    
-    }
+
     .contacto__right-side{
         display: flex;
         justify-content: center;
@@ -262,15 +266,16 @@
 
     .contacto__titulo{
         display: none;
+        &--responsive{
+            display: inline-block;
+            font-size: 45px;
+            font-family: 'Montserrat';
+            font-weight: 100;
+            margin-bottom: 10px;
+        }
     }
 
-    .contacto__titulo--responsive{
-        display: inline-block;
-        font-size: 45px;
-        font-family: 'Montserrat';
-        font-weight: 100;
-        margin-bottom: 10px;
-    }
+
     .container{
         width: 100%;
         max-width: 1900px;
@@ -279,16 +284,17 @@
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
+        &__mision{
+            width: 100%;
+            max-width: 1200px;
+            height: 550px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: auto;    
+        }
     }
-    .container__mision{
-        width: 100%;
-        max-width: 1200px;
-        height: 550px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: auto;    
-    }
+
     .contacto__right-side{
         display: flex;
         justify-content: center;
@@ -364,15 +370,16 @@
 
     .contacto__titulo{
         display: none;
+        &--responsive{
+            display: inline-block;
+            font-size: 45px;
+            font-family: 'Montserrat';
+            font-weight: 100;
+            margin-bottom: 10px;
+        }
     }
 
-    .contacto__titulo--responsive{
-        display: inline-block;
-        font-size: 45px;
-        font-family: 'Montserrat';
-        font-weight: 100;
-        margin-bottom: 10px;
-    }
+
     .container{
         width: 100%;
         max-width: 1900px;
@@ -381,16 +388,17 @@
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
+        &__mision{
+            width: 100%;
+            max-width: 1200px;
+            height: 550px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: auto;    
+        }
     }
-    .container__mision{
-        width: 100%;
-        max-width: 1200px;
-        height: 550px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: auto;    
-    }
+
     .contacto__right-side{
         display: flex;
         justify-content: center;
@@ -467,15 +475,16 @@
 
     .contacto__titulo{
         display: none;
+        &--responsive{
+            display: inline-block;
+            font-size: 45px;
+            font-family: 'Montserrat';
+            font-weight: 100;
+            margin-bottom: 10px;
+        }
     }
 
-    .contacto__titulo--responsive{
-        display: inline-block;
-        font-size: 45px;
-        font-family: 'Montserrat';
-        font-weight: 100;
-        margin-bottom: 10px;
-    }
+
     .container{
         width: 100%;
         max-width: 1900px;
@@ -484,16 +493,17 @@
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
+        &__mision{
+            width: 100%;
+            max-width: 1200px;
+            height: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: auto;    
+        }
     }
-    .container__mision{
-        width: 100%;
-        max-width: 1200px;
-        height: 300px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: auto;    
-    }
+
     .contacto__right-side{
         display: flex;
         justify-content: center;
@@ -569,16 +579,18 @@
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
+        &__mision{
+            width: 100%;
+            max-width: 1000px;
+            height: 310px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: auto;
+
+        }
     }
-    .container__mision{
-        width: 100%;
-        max-width: 1000px;
-        height: 310px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: auto;    
-    }
+
     .contacto__right-side{
         display: flex;
         justify-content: center;
@@ -604,15 +616,15 @@
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
-    }
-    .container__mision{
-        width: 100%;
-        max-width: 1900px;
-        height: 250px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: auto;    
+        &__mision{
+            width: 100%;
+            max-width: 1900px;
+            height: 250px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: auto;    
+        }
     }
     .contacto__right-side{
         display: flex;
@@ -638,16 +650,16 @@
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
-    }
-    .container__mision{
-        width: 100%;
-        max-width: 1000px;
-        height: 250px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: auto;  
-    }
-    
 
+        &__mision{
+            width: 100%;
+            max-width: 1000px;
+            height: 250px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: auto;  
+
+        }
+    }    
 }
