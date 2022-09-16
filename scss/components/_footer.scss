@@ -29,13 +29,13 @@
 }
 
 .pie-pagina .grupo-1 .box h2{
-    color: #fff;
+    color: $primary; 
     margin-bottom: 25px;
     font-size: 20px;  
 }
 
 .pie-pagina .grupo-1 .box p{
-    color: #efefef;
+    color: $primary; 
     margin-bottom: 10px;
 }
 
@@ -45,7 +45,7 @@
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: #fff;
+    color: $primary; 
     margin-right: 10px;
     background: -webkit-linear-gradient(to left, #434343, #000000);  
     background: linear-gradient(to left, #434343, #000000); 
@@ -62,7 +62,7 @@
     background: linear-gradient(to left, #434343, #000000); 
     padding: 15px 10px;
     text-align: center;
-    color: #fff;
+    color: $primary; 
 }
 
 .pie-pagina .grupo-2 small{

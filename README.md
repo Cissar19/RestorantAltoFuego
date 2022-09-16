@@ -6,6 +6,13 @@ Principalmente se agrego SASS en nuestro proyecto con la ayuda de node npm. Se c
 
 La pagina seleccionada para el desafio fue la pagina de contacto, header y footer (componentes) tienen sass al igual que el contenido prinicipal de la pagina mencionada.
 
+## Observaciones
+
+Se aplico nesting en _header.scss, medias querys y 
+Se utilizaron @Imports 
+
+
+
 ```
 
 
