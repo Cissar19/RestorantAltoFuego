@@ -11,3 +11,19 @@ body{
     background: $bg;  
     background: $bg-2; 
 }
+
+.flex{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+	outline: none;
+	padding: 5px 0;
+	border-bottom: 2px solid #121212;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 100%;
+	color: $primary; 
+}

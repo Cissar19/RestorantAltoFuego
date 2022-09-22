@@ -7,8 +7,23 @@
   outline: none; }
 
 body {
-  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
   background: linear-gradient(to right, #414345, #232526); }
+
+.flex, .pie-pagina .grupo-1 .box figure, .contacto__imagen-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.form, .contacto__input, .contacto__input--textarea {
+  outline: none;
+  padding: 5px 0;
+  border-bottom: 2px solid #121212;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  color: #fff; }
 
 .header {
   background: -webkit-linear-gradient(to left, #434343, #000000);
@@ -39,7 +54,7 @@ body {
       transform: scale(1.1); }
   .nav-links a {
     font-size: 700;
-    color: #eceff1;
+    color: #fff;
     text-decoration: none; }
 
 .btn button {
@@ -69,10 +84,7 @@ body {
 
 .pie-pagina .grupo-1 .box figure {
   width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  height: 100%; }
 
 .pie-pagina .grupo-1 .box figure img {
   width: 250px; }
@@ -83,7 +95,7 @@ body {
   font-size: 20px; }
 
 .pie-pagina .grupo-1 .box p {
-  color: #efefef;
+  color: #fff;
   margin-bottom: 10px; }
 
 .pie-pagina .grupo-1 .red-social a {
@@ -125,10 +137,7 @@ body {
     .contacto__imagen-wrapper {
       height: 100%;
       width: 80%;
-      overflow: hidden;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
+      overflow: hidden; }
     .contacto__imagen--2 {
       width: 130%; }
     .contacto__imagen--3 {
@@ -160,38 +169,24 @@ body {
       display: none; }
   .contacto__input {
     height: 30px;
-    outline: none;
-    padding: 5px 0;
-    border-bottom: 2px solid #121212;
-    border-top: none;
-    border-left: none;
-    border-right: none;
     width: 100%;
-    color: white;
+    color: #fff;
     background-color: transparent; }
     .contacto__input--textarea {
       height: 100px;
-      outline: none;
-      padding: 5px 0;
-      border-bottom: 2px solid #121212;
-      border-top: none;
-      border-left: none;
-      border-right: none;
-      width: 100%;
-      color: white;
       resize: none;
       background-color: transparent; }
   .contacto__label {
     font-size: 18px;
     font-weight: 600;
-    color: white;
+    color: #fff;
     font-family: "Montserrat"; }
     .contacto__label_1 {
       margin-left: 60px;
       margin-bottom: 20px;
       font-size: 58px;
       font-weight: 600;
-      color: white;
+      color: #fff;
       font-family: "Montserrat"; }
   .contacto__sub {
     font-size: 20px;
@@ -204,7 +199,7 @@ body {
     padding: 18px 55px;
     background-color: #121212;
     border-radius: 50px;
-    color: #f2f2f2;
+    color: #fff;
     font-weight: 600;
     border: none;
     font-size: 18px;
@@ -385,7 +380,7 @@ body {
       display: inline-block;
       margin-top: 2px;
       font-size: px;
-      color: #eceff1;
+      color: #fff;
       flex-direction: column; }
   .header .btn button {
     margin-bottom: 10px; }
@@ -421,7 +416,7 @@ body {
     width: 100%; }
   .contacto__label_1 {
     font-size: 35px;
-    color: white; }
+    color: #fff; }
   .mapa {
     width: 260px;
     height: 180px; } }
@@ -496,7 +491,7 @@ body {
     width: 100%; }
   .contacto__label_1 {
     font-size: 35px;
-    color: white; }
+    color: #fff; }
   .mapa {
     width: 360px;
     height: 385px; } }
@@ -518,7 +513,7 @@ body {
     display: inline-block;
     margin-top: 5px;
     font-size: 20px;
-    color: #eceff1;
+    color: #fff;
     flex-direction: column; }
   .header .btn button {
     margin-bottom: 15px;
@@ -571,7 +566,7 @@ body {
     width: 100%; }
   .contacto__label_1 {
     font-size: 35px;
-    color: white; } }
+    color: #fff; } }
 
 /* -------------------------------------------------------MEDIAS QUERYS (491px - 584px) :) --------------------------------------------------------------*/
 @media (min-width: 491px) and (max-width: 584px) {
@@ -590,7 +585,7 @@ body {
   .header .nav-links a {
     display: inline-block;
     font-size: 15px;
-    color: #eceff1; }
+    color: #fff; }
   .header .btn button {
     margin-bottom: 15px;
     margin-top: 0px; }
@@ -642,7 +637,7 @@ body {
     width: 100%; }
   .contacto__label_1 {
     font-size: 35px;
-    color: white; } }
+    color: #fff; } }
 
 /* -------------------------------------------------------MEDIAS QUERYS (585px - 660px) :) --------------------------------------------------------------*/
 @media (min-width: 585px) and (max-width: 660px) {
@@ -661,7 +656,7 @@ body {
   .header .nav-links a {
     display: inline-block;
     font-size: 16px;
-    color: #eceff1; }
+    color: #fff; }
   .header .btn button {
     margin-bottom: 15px;
     margin-top: 0px; }
@@ -713,7 +708,7 @@ body {
     width: 100%; }
   .contacto__label_1 {
     font-size: 35px;
-    color: white; } }
+    color: #fff; } }
 
 /* -------------------------------------------------------MEDIAS QUERYS (661px - 835px) :) --------------------------------------------------------------*/
 @media (min-width: 661px) and (max-width: 835px) {
@@ -732,7 +727,7 @@ body {
   .header .nav-links a {
     display: inline-block;
     font-size: 23px;
-    color: #eceff1; }
+    color: #fff; }
   .header .btn button {
     margin-bottom: 15px;
     margin-top: 0px; }
@@ -776,7 +771,7 @@ body {
     width: 100%; }
   .contacto__label_1 {
     font-size: 35px;
-    color: white; } }
+    color: #fff; } }
 
 /* -------------------------------------------------------MEDIAS QUERYS (1080px - 1500px) :) --------------------------------------------------------------*/
 @media (min-width: 831px) and (max-width: 1079px) {

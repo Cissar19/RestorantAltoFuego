@@ -19,9 +19,7 @@
 .pie-pagina .grupo-1 .box figure{
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend .flex;
 }
 
 .pie-pagina .grupo-1 .box figure img{
