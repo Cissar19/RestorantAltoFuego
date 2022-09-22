@@ -178,20 +178,20 @@ body {
       background-color: transparent; }
   .contacto__label {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 600px;
     color: #fff;
     font-family: "Montserrat"; }
     .contacto__label_1 {
+      font-size: 50px;
+      font-weight: 600px;
       margin-left: 60px;
       margin-bottom: 20px;
-      font-size: 58px;
-      font-weight: 600;
       color: #fff;
       font-family: "Montserrat"; }
   .contacto__sub {
     font-size: 20px;
+    font-weight: 100px;
     font-family: 'Montserrat';
-    font-weight: 100;
     margin-bottom: 70px;
     text-align: center;
     color: #e8e8e8; }
@@ -200,9 +200,9 @@ body {
     background-color: #121212;
     border-radius: 50px;
     color: #fff;
-    font-weight: 600;
-    border: none;
     font-size: 18px;
+    font-weight: 600px;
+    border: none;
     cursor: pointer; }
     .contacto__submit-button:hover {
       background-color: #2e2e2e; }
