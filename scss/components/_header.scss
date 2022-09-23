@@ -1,6 +1,6 @@
 .header{
-    background: -webkit-linear-gradient(to left, #434343, #000000);  
-    background: linear-gradient(to left, #434343, #000000); 
+    background: map-get($map: $paleta, $key: secundario); 
+    background: map-get($map: $paleta, $key: terciario);
     display: flex; 
     justify-content: space-between;
     align-items: center;
@@ -42,7 +42,7 @@
     }
     a{
         font-size: 700;
-        color: $primary; 
+        color: map-get($map: $paleta, $key: primario);
         text-decoration: none;         
 
     }

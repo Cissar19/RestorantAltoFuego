@@ -2,8 +2,8 @@
 .pie-pagina{
     margin-top: 40px;
     width: 100%;
-    background: -webkit-linear-gradient(to left, #434343, #000000);  
-    background: linear-gradient(to left, #434343, #000000); 
+    color: map-get($map: $paleta, $key: secundario);  
+    color: map-get($map: $paleta, $key: terciario);  
 }
 
 .pie-pagina .grupo-1{
@@ -27,13 +27,13 @@
 }
 
 .pie-pagina .grupo-1 .box h2{
-    color: $primary; 
+    color: map-get($map: $paleta, $key: primario); 
     margin-bottom: 25px;
     font-size: 20px;  
 }
 
 .pie-pagina .grupo-1 .box p{
-    color: $primary; 
+    color: map-get($map: $paleta, $key: primario);   
     margin-bottom: 10px;
 }
 
@@ -43,7 +43,7 @@
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: $primary; 
+    color: map-get($map: $paleta, $key: primario);   
     margin-right: 10px;
     background: -webkit-linear-gradient(to left, #434343, #000000);  
     background: linear-gradient(to left, #434343, #000000); 
@@ -60,7 +60,7 @@
     background: linear-gradient(to left, #434343, #000000); 
     padding: 15px 10px;
     text-align: center;
-    color: $primary; 
+    color: map-get($map: $paleta, $key: primario);  
 }
 
 .pie-pagina .grupo-2 small{

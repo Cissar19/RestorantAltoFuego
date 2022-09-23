@@ -33,3 +33,9 @@ body{
 	font-weight: $weight;
 	
 }
+
+$paleta: (
+	primario: $primary, 
+	secundario: $bg,
+	terciario: $bg-2
+);

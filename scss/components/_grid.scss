@@ -4,8 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: -webkit-linear-gradient(to right, #414345, #232526);  
-    background: linear-gradient(to right, #414345, #232526); 
+    background-color: map-get($map: $paleta, $key: secundario);  
+    background-color: map-get($map: $paleta, $key: terciario);  
 
     &__imagen{
         width: 230%;
@@ -44,7 +44,7 @@
         margin-bottom: 60px;
         text-transform: uppercase;
         text-align: center;
-        color: rgb(255, 255, 255);
+        color: map-get($map: $paleta, $key: primario);  
     
         &--responsive{
             @include fonts(70px, 100px);
@@ -52,7 +52,7 @@
             margin-bottom: 60px;
             text-transform: uppercase;
             text-align: center;
-            color: rgb(255, 255, 255);
+            color: map-get($map: $paleta, $key: primario);  
             display: none;
     
         }
@@ -61,7 +61,7 @@
         height: 30px;
         @extend .form;
         width: 100%;
-        color: $primary; 
+        color: map-get($map: $paleta, $key: primario);  
         background-color: transparent;
     
         &--textarea{
@@ -74,14 +74,14 @@
     }
     &__label{
         @include fonts(18px, 600px);
-        color: $primary; 
+        color: map-get($map: $paleta, $key: primario);   
         font-family: "Montserrat";
     
         &_1{
             @include fonts(50px, 600px);
             margin-left: 60px;
             margin-bottom: 20px;
-            color: $primary; 
+            color: map-get($map: $paleta, $key: primario);  
             font-family: "Montserrat";
         }
     }
@@ -96,7 +96,7 @@
         padding: 18px 55px;
         background-color: #121212;
         border-radius: 50px;
-        color: $primary;
+        color: map-get($map: $paleta, $key: primario); 
         @include fonts(18px, 600px);
         border: none;
         cursor: pointer;
