@@ -47,9 +47,8 @@
         color: rgb(255, 255, 255);
     
         &--responsive{
-            font-size: 70px;
+            @include fonts(70px, 100px);
             font-family: 'Montserrat';
-            font-weight: 100;
             margin-bottom: 60px;
             text-transform: uppercase;
             text-align: center;
