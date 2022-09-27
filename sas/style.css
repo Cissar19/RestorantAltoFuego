@@ -26,8 +26,8 @@ body {
   color: #fff; }
 
 .header {
+  background: #fff;
   background: linear-gradient(to right, #414345, #232526);
-  background: linear-gradient(to left, #414345, #232526);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,8 +70,8 @@ body {
 .pie-pagina {
   margin-top: 40px;
   width: 100%;
-  color: linear-gradient(to right, #414345, #232526);
-  color: linear-gradient(to left, #414345, #232526); }
+  background: #fff;
+  background: linear-gradient(to right, #414345, #232526); }
 
 .pie-pagina .grupo-1 {
   width: 100%;
@@ -101,13 +101,11 @@ body {
 .pie-pagina .grupo-1 .red-social a {
   display: inline-block;
   text-decoration: none;
-  width: 45px;
   height: 45px;
+  width: 45px;
   line-height: 45px;
   color: #fff;
   margin-right: 10px;
-  background: -webkit-linear-gradient(to left, #434343, #000000);
-  background: linear-gradient(to left, #434343, #000000);
   text-align: center;
   transition: all 300ms ease; }
 
@@ -115,11 +113,10 @@ body {
   color: aqua; }
 
 .pie-pagina .grupo-2 {
-  background: -webkit-linear-gradient(to left, #434343, #000000);
-  background: linear-gradient(to left, #434343, #000000);
+  background: #fff;
+  background: linear-gradient(to right, #414345, #232526);
   padding: 15px 10px;
-  text-align: center;
-  color: #fff; }
+  text-align: center; }
 
 .pie-pagina .grupo-2 small {
   font-size: 15px; }
@@ -133,16 +130,18 @@ body {
   background-color: linear-gradient(to right, #414345, #232526);
   background-color: linear-gradient(to left, #414345, #232526); }
   .contacto__imagen {
+    height: 100%;
     width: 230%; }
     .contacto__imagen-wrapper {
       height: 100%;
       width: 80%;
       overflow: hidden; }
     .contacto__imagen--2 {
+      height: 100%;
       width: 130%; }
     .contacto__imagen--3 {
-      width: 150%;
-      height: 1000px; }
+      height: 1000px;
+      width: 150%; }
   .contacto__right-side {
     display: flex;
     justify-content: center;
@@ -196,12 +195,12 @@ body {
     text-align: center;
     color: #e8e8e8; }
   .contacto__submit-button {
+    font-size: 18px;
+    font-weight: 600px;
     padding: 18px 55px;
     background-color: #121212;
     border-radius: 50px;
     color: #fff;
-    font-size: 18px;
-    font-weight: 600px;
     border: none;
     cursor: pointer; }
     .contacto__submit-button:hover {
@@ -385,11 +384,11 @@ body {
   .header .btn button {
     margin-bottom: 10px; }
   .img__grid-1 {
-    width: 1920px;
-    height: 350px; }
+    height: 350px;
+    width: 1920px; }
   .img__grid-2 {
-    width: 890px;
-    height: 260px; }
+    height: 260px;
+    width: 890px; }
   .grid {
     display: flex;
     flex-direction: column; }
@@ -418,8 +417,8 @@ body {
     font-size: 35px;
     color: #fff; }
   .mapa {
-    width: 260px;
-    height: 180px; } }
+    height: 180px;
+    width: 260px; } }
 
 /* -------------------------------------------------------MEDIAS QUERYS (365px - 450px) :) --------------------------------------------------------------*/
 @media (min-width: 365px) and (max-width: 450px) {
@@ -444,9 +443,11 @@ body {
     margin-bottom: 15px;
     margin-top: 5px; }
   .img__grid-1 {
-    width: 1920px;
-    height: 350px; }
+    height: 350px;
+    width: 1920px; }
   .img__grid-2 {
+    height: 260px;
+    width: 890px;
     width: 890px;
     height: 260px; }
   .grid {
@@ -468,17 +469,17 @@ body {
       font-weight: 100;
       margin-bottom: 10px; }
   .container {
+    height: 1500px;
     width: 100%;
     max-width: 1900px;
-    height: 1500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto; }
     .container__mision {
+      height: 550px;
       width: 100%;
       max-width: 1200px;
-      height: 550px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -493,8 +494,8 @@ body {
     font-size: 35px;
     color: #fff; }
   .mapa {
-    width: 360px;
-    height: 385px; } }
+    height: 385px;
+    width: 360px; } }
 
 /* -------------------------------------------------------MEDIAS QUERYS (451px - 584px) :) --------------------------------------------------------------*/
 @media (min-width: 451px) and (max-width: 490px) {
@@ -519,9 +520,13 @@ body {
     margin-bottom: 15px;
     margin-top: 5px; }
   .img__grid-1 {
+    height: 350px;
+    width: 1920px;
     width: 1920px;
     height: 350px; }
   .img__grid-2 {
+    height: 260px;
+    width: 890px;
     width: 890px;
     height: 260px; }
   .grid {
@@ -543,17 +548,17 @@ body {
       font-weight: 100;
       margin-bottom: 10px; }
   .container {
+    height: 1500px;
     width: 100%;
     max-width: 1900px;
-    height: 1500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto; }
     .container__mision {
+      height: 550px;
       width: 100%;
       max-width: 1200px;
-      height: 550px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -590,11 +595,11 @@ body {
     margin-bottom: 15px;
     margin-top: 0px; }
   .img__grid-1 {
-    width: 1920px;
-    height: 350px; }
+    height: 350px;
+    width: 1920px; }
   .img__grid-2 {
-    width: 890px;
-    height: 260px; }
+    height: 260px;
+    width: 890px; }
   .grid {
     display: flex;
     flex-direction: column; }
@@ -614,17 +619,17 @@ body {
       font-weight: 100;
       margin-bottom: 10px; }
   .container {
+    height: 1500px;
     width: 100%;
     max-width: 1900px;
-    height: 1500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto; }
     .container__mision {
+      height: 550px;
       width: 100%;
       max-width: 1200px;
-      height: 550px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -661,11 +666,11 @@ body {
     margin-bottom: 15px;
     margin-top: 0px; }
   .img__grid-1 {
-    width: 1920px;
-    height: 350px; }
+    height: 350px;
+    width: 1920px; }
   .img__grid-2 {
-    width: 890px;
-    height: 260px; }
+    height: 260px;
+    width: 890px; }
   .grid {
     display: flex;
     flex-direction: column; }
@@ -685,17 +690,17 @@ body {
       font-weight: 100;
       margin-bottom: 10px; }
   .container {
+    height: 1400px;
     width: 100%;
     max-width: 1900px;
-    height: 1400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto; }
     .container__mision {
+      height: 300px;
       width: 100%;
       max-width: 1200px;
-      height: 300px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -732,11 +737,11 @@ body {
     margin-bottom: 15px;
     margin-top: 0px; }
   .img__grid-1 {
-    width: 1920px;
-    height: 350px; }
+    height: 350px;
+    width: 1920px; }
   .img__grid-2 {
-    width: 890px;
-    height: 260px; }
+    height: 260px;
+    width: 890px; }
   .grid {
     display: flex;
     flex-direction: column; }
@@ -748,17 +753,17 @@ body {
   .contacto__imagen-wrapper {
     display: none; }
   .container {
+    height: 1400px;
     width: 100%;
     max-width: 1900px;
-    height: 1400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto; }
     .container__mision {
+      height: 310px;
       width: 100%;
       max-width: 1000px;
-      height: 310px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -776,17 +781,17 @@ body {
 /* -------------------------------------------------------MEDIAS QUERYS (1080px - 1500px) :) --------------------------------------------------------------*/
 @media (min-width: 831px) and (max-width: 1079px) {
   .container {
+    height: 1000px;
     width: 100%;
     max-width: 1900px;
-    height: 1000px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto; }
     .container__mision {
+      height: 250px;
       width: 100%;
       max-width: 1900px;
-      height: 250px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -804,17 +809,17 @@ body {
 /* -------------------------------------------------------MEDIAS QUERYS (1080px - 1500px) :) --------------------------------------------------------------*/
 @media (min-width: 1080px) and (max-width: 1500px) {
   .container {
+    height: 500px;
     width: 100%;
     max-width: 1900px;
-    height: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto; }
     .container__mision {
+      height: 250px;
       width: 100%;
       max-width: 1000px;
-      height: 250px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;

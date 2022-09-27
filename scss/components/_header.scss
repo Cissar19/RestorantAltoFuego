@@ -1,9 +1,7 @@
 .header{
-    background: map-get($map: $paleta, $key: secundario); 
-    background: map-get($map: $paleta, $key: terciario);
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
+    background: map-get($map: $paleta, $key: primario); 
+    background: map-get($map: $paleta, $key: secundario);
+    @include flex(flex,space-between,center);
     height: 85px;
     padding: 5px 10%;
     font-family: "Open Sans";
@@ -15,8 +13,7 @@
         cursor: pointer;
 
         &-img{
-            height: 70px;
-            width: auto;
+            @include img(70px,auto);
             transition: all 0.3s;
 
             &:hover{

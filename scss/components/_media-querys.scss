@@ -13,7 +13,7 @@
     
     .header .nav-links{
         list-style: none; 
-        li{
+        li{ 
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -23,7 +23,7 @@
             display: inline-block;
             margin-top: 2px;
             font-size: px;
-            color: $primary; 
+            color: map-get($map: $paleta, $key: primario);  
             flex-direction: column;    
         } 
     }
@@ -33,13 +33,11 @@
     }
     
     .img__grid-1{
-        width: 1920px;
-        height: 350px;
+        @include img(350px,1920px);
     }
 
     .img__grid-2{
-        width: 890px;
-        height: 260px;
+        @include img(260px,890px);
     }
 
     .grid{
@@ -70,6 +68,7 @@
     }
 
     .contacto__right-side{
+
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -78,13 +77,10 @@
     }
     .contacto__label_1{
         font-size: 35px;
-        color: $primary; 
-    
+        color: map-get($map: $paleta, $key: primario);  
     }
     .mapa{
-        width: 260px; 
-        height:180px;
-
+        @include img(180px,260px);
     }
 
 
@@ -124,11 +120,11 @@
     }
     
     .img__grid-1{
-        width: 1920px;
-        height: 350px;
+        @include img(350px,1920px);
     }
 
     .img__grid-2{
+        @include img(260px,890px);
         width: 890px;
         height: 260px;
     }
@@ -161,18 +157,16 @@
 
 
     .container{
-        width: 100%;
+        @include img(1500px,100%);
         max-width: 1900px;
-        height: 1500px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
 
         &__mision{
-            width: 100%;
+            @include img(550px,100%);
             max-width: 1200px;
-            height: 550px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -193,8 +187,7 @@
     
     }
     .mapa{
-        width: 360px; 
-        height:385px;
+        @include img(385px,360px);
 
     }
 
@@ -235,11 +228,13 @@
     }
 
     .img__grid-1{
+        @include img(350px,1920px);
         width: 1920px;
         height: 350px;
    }
 
     .img__grid-2{
+        @include img(260px,890px);
         width: 890px;
         height: 260px;
     }
@@ -273,17 +268,15 @@
 
 
     .container{
-        width: 100%;
+        @include img(1500px,100%);
         max-width: 1900px;
-        height: 1500px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
         &__mision{
-            width: 100%;
+            @include img(550px,100%);
             max-width: 1200px;
-            height: 550px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -339,13 +332,12 @@
     }
 
     .img__grid-1{
-        width: 1920px;
-        height: 350px;
+        @include img(350px,1920px);
+
    }
 
     .img__grid-2{
-        width: 890px;
-        height: 260px;
+        @include img(260px,890px);
     }
 
     .grid{
@@ -377,17 +369,15 @@
 
 
     .container{
-        width: 100%;
+        @include img(1500px,100%);
         max-width: 1900px;
-        height: 1500px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
         &__mision{
-            width: 100%;
+            @include img(550px,100%);
             max-width: 1200px;
-            height: 550px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -445,13 +435,12 @@
     }
 
     .img__grid-1{
-        width: 1920px;
-        height: 350px;
+        @include img(350px,1920px);
    }
 
     .img__grid-2{
-        width: 890px;
-        height: 260px;
+        @include img(260px,890px);
+
     }
 
     .grid{
@@ -483,17 +472,15 @@
 
 
     .container{
-        width: 100%;
+        @include img(1400px,100%);
         max-width: 1900px;
-        height: 1400px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
         &__mision{
-            width: 100%;
+            @include img(300px,100%);
             max-width: 1200px;
-            height: 300px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -547,12 +534,10 @@
     }
 
     .img__grid-1{
-        width: 1920px;
-        height: 350px;
+        @include img(350px,1920px);
    }
     .img__grid-2{
-        width: 890px;
-        height: 260px;
+        @include img(260px,890px);
     }
     .grid{
         display: flex;
@@ -568,17 +553,15 @@
         display: none;
     }
     .container{
-        width: 100%;
+        @include img(1400px,100%);
         max-width: 1900px;
-        height: 1400px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
         &__mision{
-            width: 100%;
+            @include img(310px,100%);
             max-width: 1000px;
-            height: 310px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -605,17 +588,15 @@
 @media (min-width: 831px)  and (max-width: 1079px) { 
    
     .container{
-        width: 100%;
+        @include img(1000px,100%);
         max-width: 1900px;
-        height: 1000px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
         &__mision{
-            width: 100%;
+            @include img(250px,100%);
             max-width: 1900px;
-            height: 250px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -639,18 +620,16 @@
 @media (min-width: 1080px)  and (max-width: 1500px) { 
    
     .container{
-        width: 100%;
+        @include img(500px,100%);;
         max-width: 1900px;
-        height: 500px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
 
         &__mision{
-            width: 100%;
+            @include img(250px,100%);
             max-width: 1000px;
-            height: 250px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;

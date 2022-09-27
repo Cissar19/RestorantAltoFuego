@@ -1,6 +1,5 @@
 .contacto{
-    height: 100%;
-    width: 100%;
+    @include img(100%,100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,21 +7,19 @@
     background-color: map-get($map: $paleta, $key: terciario);  
 
     &__imagen{
-        width: 230%;
+        @include img(100%,230%);
 
         &-wrapper{
-            height: 100%;
-            width: 80%;
-            overflow: hidden;
+            @include img(100%,80%);
             @extend .flex;
+            overflow: hidden;
     
         }
         &--2{
-            width: 130%;
+            @include img(100%,130%);
         }
         &--3{
-        width: 150%;
-        height: 1000px;
+            @include img(1000px,150%);
         }
     }
 
@@ -58,9 +55,8 @@
         }
     }
     &__input{
-        height: 30px;
+        @include img(30px,100%);
         @extend .form;
-        width: 100%;
         color: map-get($map: $paleta, $key: primario);  
         background-color: transparent;
     
@@ -93,11 +89,11 @@
         color: rgb(232, 232, 232);
     }
     &__submit-button{
+        @include fonts(18px, 600px);
         padding: 18px 55px;
         background-color: #121212;
         border-radius: 50px;
         color: map-get($map: $paleta, $key: primario); 
-        @include fonts(18px, 600px);
         border: none;
         cursor: pointer;
         

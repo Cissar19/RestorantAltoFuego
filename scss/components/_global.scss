@@ -28,10 +28,19 @@ body{
 	color: $primary; 
 }
 
-@mixin fonts ($size, $weight ){
+@mixin fonts ($size, $weight){
 	font-size: $size;
 	font-weight: $weight;
-	
+}
+
+@mixin img ($height, $width){
+	height: $height;
+	width: $width;
+}
+@mixin flex ($flex, $content, $center){
+    display: $flex; 
+    justify-content: $content;
+    align-items: $center;
 }
 
 $paleta: (
