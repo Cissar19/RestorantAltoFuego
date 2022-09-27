@@ -1,14 +1,6 @@
 # Restorant contreras con SASS
 
-Se aplico un extend para flex y un form para resumir lineas de codigo
-
-## Observaciones
-
-## Observaciones
-
-
-```
-
+link : http://www.altofuego.lovestoblog.com
 
 ## License
 Cesar Contreras - Todos los derechos reservados# Desafio-sass-contreras-cesar
