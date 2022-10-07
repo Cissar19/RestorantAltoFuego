@@ -119,6 +119,7 @@ body {
   text-align: center; }
 
 .pie-pagina .grupo-2 small {
+  color: #fff;
   font-size: 15px; }
 
 .contacto {
@@ -140,8 +141,8 @@ body {
       height: 100%;
       width: 130%; }
     .contacto__imagen--3 {
-      height: 1000px;
-      width: 150%; }
+      height: 1140px;
+      width: 250%; }
   .contacto__right-side {
     display: flex;
     justify-content: center;
@@ -217,8 +218,8 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
   color: white;
   font-family: "Montserrat"; }
 
@@ -240,17 +241,25 @@ body {
   width: 650px;
   height: 300px; }
 
-.img__grid-1 {
+.img__grid-1-1 {
   width: 1920px;
-  height: 350px; }
+  height: 650px; }
 
 .img__grid-2 {
-  width: 490px;
+  width: 970px;
   height: 260px; }
 
+.texto {
+  text-align: center;
+  font-size: 40px; }
+
+.texto__dos {
+  text-align: center;
+  font-size: 20px; }
+
 .img__menu {
-  width: 650px;
-  height: 300px; }
+  width: 10px;
+  height: 10px; }
 
 .carta {
   list-style: none;

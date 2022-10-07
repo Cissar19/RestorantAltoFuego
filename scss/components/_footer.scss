@@ -59,5 +59,6 @@
 }
 
 .pie-pagina .grupo-2 small{
+    color: map-get($map: $paleta, $key: primario); 
     font-size: 15px;
 }
