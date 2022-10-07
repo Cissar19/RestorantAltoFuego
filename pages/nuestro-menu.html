@@ -13,65 +13,45 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     </head>
+
     <body>
         <header class="header">
             <nav class="navbar navbar-expand-md navbar-dark header ">
                 <div class="container-fluid">
-                <!-- icono o nombre -->
-        
-                <a class="navbar-brand" href="#">
-                  <img class="header__logo-img" src="../assets/images/logoRes.png" alt="Logo de la marca"/>
-                </a>
-                    
-                <!-- boton del menu -->
-        
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-        
-                  <!-- elementos del menu colapsable -->
-        
-                <div class="collapse navbar-collapse" id="menu">
-                  <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active"  href="/pages/nuestro-menu.html">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active"  href="/pages/sobre-nosotros.html">Nosotros</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active"  href="/pages/ubicacion.html">Ubicación</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active"  href="/pages/contacto.html">Contacto</a>
-                      </li>
-        
-    
-                  </ul>
-                  
-                 <!--boton Informacion -->
-        
-                  <form class="d-flex">
-                    <a class="btn d-none d-md-inline-block" href="contacto.html"><button>Quiero reservar</button></a>
-                  </form>
-                  
+                    <a class="navbar-brand" href="#">
+                    <img class="header__logo-img" src="../assets/images/logoRes.png" alt="Logo de la marca"/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link active"  href="/pages/nuestro-menu.html">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active"  href="/pages/sobre-nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active"  href="/pages/ubicacion.html">Ubicación</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active"  href="/pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>      
+                    <form class="d-flex">
+                        <a class="btn d-none d-md-inline-block" href="contacto.html"><button>Quiero reservar</button></a>
+                    </form>
+                    </div>
                 </div>
             </nav>
         </header>
 
         <main>
-            <!-- Section correspondiente a formulario de atencion-->  
-            <section class="contacto">
-                <div class="contacto__imagen-wrapper">
-                    <img src="../assets/images/comida-2.jpg" alt="imagen de comida" class="contacto__imagen--3"/>
-                </div>
-                <div class="contacto__right-side">
-                    <h1 class="contacto__titulo">Nuestra Carta</h1>
-                        <div class="contacto__input-linea">
-                        </div>
+                            <h1 class="titulo-1">Nuestra carta</h1>
                         <section class="grid">
                             <h1 class="contacto__titulo--responsive">Nuestra Carta</h1>
                             <article>
@@ -84,18 +64,18 @@
                                             <li>-Tabla de cecinas</li>
                                         </ul>
                                 </div>
-                                </article>
+                            </article>
                             <article>
-                            <img class="img__grid-2" src="../assets/images/comida-0.jpg" alt="Entradas"/>
-                            <div class="text">
-                                <h3>Carnes</h3>
-                                <ul class="carta">
-                                    <li>-Burgers</li>
-                                    <li>-Filete</li>
-                                    <li>-Lomo Liso</li>
-                                    <li>-Lomo Vetado</li>
-                                    </ul>
-                            </div>
+                                <img class="img__grid-2" src="../assets/images/comida-0.jpg" alt="Entradas"/>
+                                <div class="text">
+                                    <h3>Carnes</h3>
+                                    <ul class="carta">
+                                        <li>-Burgers</li>
+                                        <li>-Filete</li>
+                                        <li>-Lomo Liso</li>
+                                        <li>-Lomo Vetado</li>
+                                        </ul>
+                                </div>
                             </article>
                             <article>
                                 <img class="img__grid-2" src="../assets/images/postres.jpg" alt="Entradas"/>
@@ -108,23 +88,22 @@
                                         <li>-Jugo de Frambuesa</li>
                                         </ul>
                                 </div>
-                                </article>
-                                <article>
-                                    <img class="img__grid-2" src="../assets/images/bebestible.jpg" alt="Entradas"/>
-                                    <div class="text">
-                                        <h3>Postres</h3>
-                                            <ul class="carta">
-                                                <li>-Tiramisu</li>
-                                                <li>-Chese cake</li>
-                                                <li>-Tres Leches</li>
-                                            </ul>
-                                    </div>
-                                    </article>
-
+                            </article>
+                            <article>
+                                <img class="img__grid-2" src="../assets/images/bebestible.jpg" alt="Entradas"/>
+                                <div class="text">
+                                    <h3>Postres</h3>
+                                    <ul class="carta">
+                                        <li>-Tiramisu</li>
+                                        <li>-Chese cake</li>
+                                        <li>-Tres Leches</li>
+                                    </ul>
+                                </div>
+                            </article>
                 </div>
+            </section>
         </main>
 
-            <!--Pie de Pagin-->
         <footer class="pie-pagina">
             <div class="grupo-1">
                 <div class="box">

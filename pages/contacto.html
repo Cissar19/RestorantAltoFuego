@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
+
     <head>
         <meta charset="UTF-8"/>
         <title>Restaurant Alto Fuego</title>
-        <meta http-equiv="refresh" content="60"/>
+        <meta http-equiv="refresh" content="260"/>
         <link rel="stylesheet" href="../sas/style.css"/>
         <meta name="author" content="Cesar Contreras"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -18,61 +19,46 @@
         <header class="header">
             <nav class="navbar navbar-expand-md navbar-dark header ">
                 <div class="container-fluid">
-                <!-- icono o nombre -->
+                    <a class="navbar-brand" href="#">
+                    <img class="header__logo-img" src="../assets/images/logoRes.png" alt="Logo de la marca"/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
         
-                <a class="navbar-brand" href="#">
-                  <img class="header__logo-img" src="../assets/images/logoRes.png" alt="Logo de la marca"/>
-                </a>
-                    
-                <!-- boton del menu -->
-        
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-        
-                  <!-- elementos del menu colapsable -->
-        
-                <div class="collapse navbar-collapse" id="menu">
-                  <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active"  href="/pages/nuestro-menu.html">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active"  href="/pages/sobre-nosotros.html">Nosotros</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active"  href="/pages/ubicacion.html">Ubicación</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active"  href="/pages/contacto.html">Contacto</a>
-                      </li>
-        
-    
-                  </ul>
-                  
-                 <!--boton Informacion -->
-        
-                  <form class="d-flex">
-                    <a class="btn d-none d-md-inline-block" href="contacto.html"><button>Quiero reservar</button></a>
-                  </form>
-                  
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link active"  href="/pages/nuestro-menu.html">Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active"  href="/pages/sobre-nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active"  href="/pages/ubicacion.html">Ubicación</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active"  href="/pages/contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <a class="btn d-none d-md-inline-block" href="contacto.html"><button>Quiero reservar</button></a>
+                            </form>
+                        </div>
                 </div>
             </nav>
+        </header>
 
-        <!-- Section correspondiente a formulario de atencion-->  
         <main>
             <section class="contacto">
-               
                 <div class="contacto__imagen-wrapper">
                     <img src="../assets/images/contacto.jpg" alt="contacto" class="contacto__imagen">
                 </div>
-
                 <div class="contacto__right-side">
                     <h1 class="contacto__label_1">Contactanos</h1>
-    
                     <form action="" class="contacto__formulario-wrapper">
                         <div class="contacto__input-linea">
                             <p class="contacto__sub">Tu y tus amigos son importantes para nosotros, es por eso que si tienes algun reclamo o sugerencia. Nos escribas para contactarte a la brevedad y hablar de lo sucedido.</p>
@@ -95,7 +81,8 @@
                         </div>
                         <input type="submit" value="Enviar" class="contacto__submit-button">
                     </form>
-                </div>            
+                </div> 
+            </section>           
         </main>
 
         <footer class="pie-pagina">
