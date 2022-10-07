@@ -25,6 +25,7 @@
 .grid > article:nth-child(1) {
   grid-column: span 2;
   grid-row: span 1;
+  padding: 20px 20px 20px 20px;
 }
 
 .img__ubi{
@@ -35,11 +36,13 @@
 .img__grid-1-1{
   width: 1920px;
   height: 650px;
+  
 }
 
 .img__grid-2{
   width: 970px;
   height: 260px;
+  padding: 5px 5px 5px 5px;
 }
 .texto{
   text-align: center;

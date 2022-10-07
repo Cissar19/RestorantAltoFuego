@@ -26,16 +26,11 @@
         display: none;
     }
 
-    .contacto__titulo{
-        display: none;
-        &--responsive{
-            display: inline-block;
-            font-size: 35px;
-            font-family: 'Montserrat';
-            font-weight: 100;
-            margin-bottom: 10px;
-        }
+    .titulo-1{
+        font-size: 40px;
     }
+
+
 
     .contacto__right-side{
 
@@ -205,9 +200,6 @@
         display: none;
     }
 
- 
-
-
     .container{
         @include img(1500px,100%);
         max-width: 1900px;
@@ -268,15 +260,9 @@
         display: none;
     }
 
-    .contacto__titulo{
-        display: none;
-        &--responsive{
-            display: inline-block;
-            font-size: 45px;
-            font-family: 'Montserrat';
-            font-weight: 100;
-            margin-bottom: 10px;
-        }
+    .titulo-1{
+        font-size: 70px;
+
     }
 
 
