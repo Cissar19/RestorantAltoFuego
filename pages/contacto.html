@@ -16,20 +16,51 @@
     
     <body>
         <header class="header">
-            <div class="header__logo">
-                <img class="header__logo-img" src="../assets/images/logoRes.png" alt="Logo de la marca"/>
-            </div>
-            <nav>
-                <ul class="nav-links"> 
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="nuestro-menu.html">Menu</a></li>
-                    <li><a href="sobre-nosotros.html">Nosotros</a></li>
-                    <li><a href="ubicacion.html">Ubicación</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>            
+            <nav class="navbar navbar-expand-md navbar-dark header ">
+                <div class="container-fluid">
+                <!-- icono o nombre -->
+        
+                <a class="navbar-brand" href="#">
+                  <img class="header__logo-img" src="../assets/images/logoRes.png" alt="Logo de la marca"/>
+                </a>
+                    
+                <!-- boton del menu -->
+        
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                  <!-- elementos del menu colapsable -->
+        
+                <div class="collapse navbar-collapse" id="menu">
+                  <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active"  href="/pages/nuestro-menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active"  href="/pages/sobre-nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active"  href="/pages/ubicacion.html">Ubicación</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active"  href="/pages/contacto.html">Contacto</a>
+                      </li>
+        
+    
+                  </ul>
+                  
+                 <!--boton Informacion -->
+        
+                  <form class="d-flex">
+                    <a class="btn d-none d-md-inline-block" href="contacto.html"><button>Quiero reservar</button></a>
+                  </form>
+                  
+                </div>
             </nav>
-            <a class="btn" href="contacto.html"><button>Quiero reservar</button></a>
-        </header>
 
         <!-- Section correspondiente a formulario de atencion-->  
         <main>

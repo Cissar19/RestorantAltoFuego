@@ -10,16 +10,16 @@
         @include img(100%,230%);
 
         &-wrapper{
-            @include img(100%,80%);
+            @include img(890px,80%);
             @extend .flex;
             overflow: hidden;
     
         }
         &--2{
-            @include img(100%,130%);
+            @include img(800px,250%);
         }
         &--3{
-            @include img(1140px,250%);
+            @include img(1000px,10000px);
         }
     }
 

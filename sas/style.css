@@ -27,15 +27,7 @@ body {
 
 .header {
   background: #fff;
-  background: linear-gradient(to right, #414345, #232526);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 85px;
-  padding: 5px 10%;
-  font-family: "Open Sans";
-  margin: 0px;
-  padding: 0px; }
+  background: linear-gradient(to right, #414345, #232526); }
   .header__logo {
     cursor: pointer; }
     .header__logo-img {
@@ -44,18 +36,6 @@ body {
       transition: all 0.3s; }
       .header__logo-img:hover {
         transform: scale(1.2); }
-
-.nav-links {
-  list-style: none; }
-  .nav-links li {
-    display: inline-block;
-    padding: 0 20px; }
-    .nav-links li:hover {
-      transform: scale(1.1); }
-  .nav-links a {
-    font-size: 700;
-    color: #fff;
-    text-decoration: none; }
 
 .btn button {
   font-weight: 700;
@@ -134,15 +114,15 @@ body {
     height: 100%;
     width: 230%; }
     .contacto__imagen-wrapper {
-      height: 100%;
+      height: 890px;
       width: 80%;
       overflow: hidden; }
     .contacto__imagen--2 {
-      height: 100%;
-      width: 130%; }
-    .contacto__imagen--3 {
-      height: 1140px;
+      height: 800px;
       width: 250%; }
+    .contacto__imagen--3 {
+      height: 1000px;
+      width: 10000px; }
   .contacto__right-side {
     display: flex;
     justify-content: center;
@@ -377,19 +357,15 @@ body {
     .header__logo img {
       height: 30px;
       margin-top: 10px; }
-  .header .nav-links {
-    list-style: none; }
-    .header .nav-links li {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 0 20px; }
-    .header .nav-links a {
-      display: inline-block;
-      margin-top: 2px;
-      font-size: px;
-      color: #fff;
-      flex-direction: column; }
+  .header .nav-links li {
+    display: block;
+    justify-content: center; }
+  .header .nav-links a {
+    display: inline-block;
+    margin-top: 2px;
+    color: #fff;
+    flex-direction: column;
+    text-align: center; }
   .header .btn button {
     margin-bottom: 10px; }
   .img__grid-1 {
@@ -431,12 +407,9 @@ body {
 
 /* -------------------------------------------------------MEDIAS QUERYS (365px - 450px) :) --------------------------------------------------------------*/
 @media (min-width: 365px) and (max-width: 450px) {
-  .header {
-    height: 250px;
-    flex-direction: column; }
-    .header__logo img {
-      height: 50px;
-      margin-top: 5px; }
+  .header__logo img {
+    height: 50px;
+    margin-top: 5px; }
   .header .nav-links li {
     display: flex;
     flex-direction: column;

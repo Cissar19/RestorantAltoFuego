@@ -1,12 +1,7 @@
 .header{
     background: map-get($map: $paleta, $key: primario); 
     background: map-get($map: $paleta, $key: secundario);
-    @include flex(flex,space-between,center);
-    height: 85px;
-    padding: 5px 10%;
-    font-family: "Open Sans";
-    margin: 0px;
-    padding: 0px;
+
 
     &__logo{
 
@@ -25,25 +20,6 @@
     }
 }
 
-.nav-links{
-    list-style: none;
-
-    li{
-        display: inline-block;
-        padding: 0 20px;  
-
-        &:hover{
-            
-            transform: scale(1.1);
-        }  
-    }
-    a{
-        font-size: 700;
-        color: map-get($map: $paleta, $key: primario);
-        text-decoration: none;         
-
-    }
-}
 
  .btn button{
     font-weight: 700;
