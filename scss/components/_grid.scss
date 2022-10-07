@@ -75,8 +75,8 @@
     
         &_1{
             @include fonts(50px, 600px);
-            margin-left: 60px;
             margin-bottom: 20px;
+            text-align: justify;
             color: map-get($map: $paleta, $key: primario);  
             font-family: "Montserrat";
         }
@@ -84,8 +84,9 @@
     &__sub{
         @include fonts(20px, 100px);
         font-family: 'Montserrat';
+        text-align: justify;
         margin-bottom: 70px;
-        text-align: center;
+        padding: 20px 20px 20px 20px;
         color: rgb(232, 232, 232);
     }
     &__submit-button{

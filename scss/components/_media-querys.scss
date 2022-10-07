@@ -2,36 +2,6 @@
 
 @media (min-width: 280px)  and (max-width: 364px) { 
 
-    .header{ 
-        height: 250px;
-        flex-direction: column; 
-        
-        &__logo img{
-            height: 30px;
-            margin-top: 10px;
-            
-        }
-    }
-    
-    .header .nav-links{
-        li{ 
-            display: block;
-            justify-content: center;
-          
-        } 
-        a{
-            display: inline-block;
-            margin-top: 2px;
-            color: map-get($map: $paleta, $key: primario);  
-            flex-direction: column;  
-            text-align: center;  
-        } 
-    }
-
-    .header .btn button{
-        margin-bottom: 10px;
-    }
-    
     .img__grid-1{
         @include img(350px,1920px);
     }
@@ -51,10 +21,10 @@
         grid-gap:30px;
         padding: 35px 0px;
     }
+    
     .contacto__imagen-wrapper{
         display: none;
     }
-
 
     .contacto__titulo{
         display: none;
@@ -88,35 +58,7 @@
 
 /* -------------------------------------------------------MEDIAS QUERYS (365px - 450px) :) --------------------------------------------------------------*/
 
-@media (min-width: 365px)  and (max-width: 450px) { 
-
-    .header{ 
-        &__logo img{
-            height: 50px;
-            margin-top: 5px;
-        }
-    }
-    
-    .header .nav-links li{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0 20px;    
-    }
-    
-    .header .nav-links a{
-        display: inline-block;
-        margin-top: 5px;
-        font-size: px;
-        color: #eceff1;
-        flex-direction: column;    
-    }
-    
-    .header .btn button{
-        margin-bottom: 15px;
-        margin-top: 5px;
-    }
-    
+@media (min-width: 365px)  and (max-width: 450px) {     
     .img__grid-1{
         @include img(350px,1920px);
     }
@@ -142,16 +84,6 @@
         display: none;
     }
 
-    .contacto__titulo{
-        display: none;
-        &--responsive{
-            display: inline-block;
-            font-size: 45px;
-            font-family: 'Montserrat';
-            font-weight: 100;
-            margin-bottom: 10px;
-        }
-    }
 
 
     .container{
@@ -193,38 +125,6 @@
 /* -------------------------------------------------------MEDIAS QUERYS (451px - 584px) :) --------------------------------------------------------------*/
 
 @media (min-width: 451px)  and (max-width: 490px) { 
-
-    .header{ 
-        height: 290px;
-        flex-direction: column;
-        &__logo img{
-            height: 50px;
-            margin-top: 5px;
-        }
-    }
-    
-
-    
-    .header .nav-links li{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0 20px;    
-    }
-    
-    .header .nav-links a{
-        display: inline-block;
-        margin-top: 5px;
-        font-size: 20px;
-        color: $primary; 
-        flex-direction: column;    
-    }
-    
-    .header .btn button{
-        margin-bottom: 15px;
-        margin-top: 5px;
-    }
-
     .img__grid-1{
         @include img(350px,1920px);
         width: 1920px;
@@ -253,16 +153,6 @@
         display: none;
     }
 
-    .contacto__titulo{
-        display: none;
-        &--responsive{
-            display: inline-block;
-            font-size: 45px;
-            font-family: 'Montserrat';
-            font-weight: 100;
-            margin-bottom: 10px;
-        }
-    }
 
 
     .container{
@@ -299,45 +189,6 @@
 /* -------------------------------------------------------MEDIAS QUERYS (491px - 584px) :) --------------------------------------------------------------*/
 
 @media (min-width: 491px)  and (max-width: 584px) { 
-
-    .header{ 
-        height: 250px;
-        flex-direction: column;
-        &__logo img{
-            height: 130px;
-            margin-top: 5px;
-            margin-bottom: 0px;
-        }     
-    }
-
-    
-    .header .nav-links li{
-        display: inline-block;
-        align-items: center;
-        padding: 0 20px;   
-        margin-top: 0px; 
-    }
-    
-    .header .nav-links a{
-        display: inline-block;
-        font-size: 15px;
-        color: $primary;        
-    }
-    
-    .header .btn button{
-        margin-bottom: 15px;
-        margin-top: 0px;
-    }
-
-    .img__grid-1{
-        @include img(350px,1920px);
-
-   }
-
-    .img__grid-2{
-        @include img(260px,890px);
-    }
-
     .grid{
          display: flex;
         flex-direction: column;  
@@ -354,16 +205,7 @@
         display: none;
     }
 
-    .contacto__titulo{
-        display: none;
-        &--responsive{
-            display: inline-block;
-            font-size: 45px;
-            font-family: 'Montserrat';
-            font-weight: 100;
-            margin-bottom: 10px;
-        }
-    }
+ 
 
 
     .container{
@@ -401,37 +243,6 @@
 /* -------------------------------------------------------MEDIAS QUERYS (585px - 660px) :) --------------------------------------------------------------*/
 
 @media (min-width: 585px)  and (max-width: 660px) { 
-
-    .header{ 
-        height: 250px;
-        flex-direction: column;  
-        &__logo img{
-            height: 130px;
-            margin-top: 5px;
-            margin-bottom: 0px;
-        }     
-    }
-    
-
-    
-    .header .nav-links li{
-        display: inline-block;
-        align-items: center;
-        padding: 0 20px;   
-        margin-top: 0px; 
-    }
-    
-    .header .nav-links a{
-        display: inline-block;
-        font-size: 16px;
-        color: $primary;       
-    }
-    
-    .header .btn button{
-        margin-bottom: 15px;
-        margin-top: 0px;
-    }
-
     .img__grid-1{
         @include img(350px,1920px);
    }
@@ -501,36 +312,6 @@
 }
 /* -------------------------------------------------------MEDIAS QUERYS (661px - 835px) :) --------------------------------------------------------------*/
 @media (min-width: 661px)  and (max-width: 835px) { 
-    .header{ 
-        height: 250px;
-        flex-direction: column;
-        &__logo img{
-            height: 130px;
-            margin-top: 5px;
-            margin-bottom: 0px;
-        }
-       
-    }
-
-    .header .nav-links li{
-        display: inline-block;
-        align-items: center;
-        padding: 0 20px;   
-        margin-top: 0px; 
-    }
-    
-    .header .nav-links a{
-        display: inline-block;
-        font-size: 23px;
-        color: $primary; 
-            
-    }
-    
-    .header .btn button{
-        margin-bottom: 15px;
-        margin-top: 0px;
-    }
-
     .img__grid-1{
         @include img(350px,1920px);
    }
