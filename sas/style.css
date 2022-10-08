@@ -373,12 +373,36 @@ body {
   .img__grid-1 {
     height: 350px;
     width: 1920px; }
+  .img__grid-1-1 {
+    height: 250px;
+    width: 1920px;
+    padding-bottom: 20px; }
   .img__grid-2 {
     height: 260px;
     width: 890px; }
   .grid {
     display: flex;
     flex-direction: column; }
+  .grid > article:nth-child(1) {
+    padding: 0px; }
+  .container {
+    height: 1500px;
+    width: 100%;
+    max-width: 1900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto; }
+    .container__mision {
+      height: 550px;
+      width: 100%;
+      max-width: 1200px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 100px; }
+  .titulo {
+    font-size: 16px; }
   .pie-pagina .grupo-1 {
     width: 80%;
     grid-template-columns: repeat(1, 1fr);
@@ -399,7 +423,13 @@ body {
     color: #fff; }
   .mapa {
     height: 180px;
-    width: 260px; } }
+    width: 260px; }
+  .display {
+    display: none; }
+  .texto {
+    font-size: 20px; }
+  .texto__dos {
+    font-size: 10px; } }
 
 /* -------------------------------------------------------MEDIAS QUERYS (365px - 450px) :) --------------------------------------------------------------*/
 @media (min-width: 365px) and (max-width: 450px) {
@@ -448,7 +478,12 @@ body {
     color: #fff; }
   .mapa {
     height: 385px;
-    width: 360px; } }
+    width: 310px;
+    padding: 10px 10px 10px 10px; }
+  .display {
+    display: none; }
+  .grid > article:nth-child(1) {
+    padding: 0px; } }
 
 /* -------------------------------------------------------MEDIAS QUERYS (451px - 584px) :) --------------------------------------------------------------*/
 @media (min-width: 451px) and (max-width: 490px) {
@@ -496,7 +531,15 @@ body {
     width: 100%; }
   .contacto__label_1 {
     font-size: 35px;
-    color: #fff; } }
+    color: #fff; }
+  .mapa {
+    height: 380px;
+    width: 360px;
+    padding: 10px 10px 10px 10px; }
+  .display {
+    display: none; }
+  .grid > article:nth-child(1) {
+    padding: 0px; } }
 
 /* -------------------------------------------------------MEDIAS QUERYS (491px - 584px) :) --------------------------------------------------------------*/
 @media (min-width: 491px) and (max-width: 584px) {
@@ -534,7 +577,15 @@ body {
     width: 100%; }
   .contacto__label_1 {
     font-size: 35px;
-    color: #fff; } }
+    color: #fff; }
+  .mapa {
+    height: 385px;
+    width: 410px;
+    padding: 10px 10px 10px 10px; }
+  .display {
+    display: none; }
+  .grid > article:nth-child(1) {
+    padding: 0px; } }
 
 /* -------------------------------------------------------MEDIAS QUERYS (585px - 660px) :) --------------------------------------------------------------*/
 @media (min-width: 585px) and (max-width: 660px) {
@@ -580,7 +631,15 @@ body {
     width: 100%; }
   .contacto__label_1 {
     font-size: 35px;
-    color: #fff; } }
+    color: #fff; }
+  .mapa {
+    height: 385px;
+    width: 510px;
+    padding: 10px 10px 10px 10px; }
+  .display {
+    display: none; }
+  .grid > article:nth-child(1) {
+    padding: 0px; } }
 
 /* -------------------------------------------------------MEDIAS QUERYS (661px - 835px) :) --------------------------------------------------------------*/
 @media (min-width: 661px) and (max-width: 835px) {
@@ -624,7 +683,11 @@ body {
     width: 100%; }
   .contacto__label_1 {
     font-size: 35px;
-    color: #fff; } }
+    color: #fff; }
+  .display {
+    display: none; }
+  .grid > article:nth-child(1) {
+    padding: 0px; } }
 
 /* -------------------------------------------------------MEDIAS QUERYS (1080px - 1500px) :) --------------------------------------------------------------*/
 @media (min-width: 831px) and (max-width: 1079px) {
@@ -652,7 +715,27 @@ body {
     width: 100%; }
   .contacto__label_1 {
     font-size: 55px;
-    color: white; } }
+    color: white; }
+  .container {
+    height: 1400px;
+    width: 100%;
+    max-width: 1800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto; }
+    .container__mision {
+      height: 310px;
+      width: 100%;
+      max-width: 600px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: auto; }
+  .display {
+    display: none; }
+  .grid > article:nth-child(1) {
+    padding: 0px; } }
 
 /* -------------------------------------------------------MEDIAS QUERYS (1080px - 1500px) :) --------------------------------------------------------------*/
 @media (min-width: 1080px) and (max-width: 1500px) {
@@ -671,4 +754,6 @@ body {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      margin: auto; } }
+      margin: auto; }
+  .display-mobile {
+    display: none; } }
