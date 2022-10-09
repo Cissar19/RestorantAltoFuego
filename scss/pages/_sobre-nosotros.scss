@@ -9,8 +9,7 @@
 .img__respaldado{
     margin-top: 30px;
     display: inline;
-    width: 250px;
-    height: 150px;
+    @include img(150px,250px);
 }
 
 .titulo{
@@ -69,15 +68,14 @@
 }
 
 .container .card{
-    width: 320px;
-    height: 410px;
+    @include img(410px,320px);
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
-    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-image :map-get($map: $paleta, $key: bg-3-card) map-get($map: $paleta, $key: bg-4-card);
     background-blend-mode: screen;
 }
 
@@ -87,8 +85,7 @@
 }
 
 .container .card img{
-    width: 350px;
-    height: 250px;
+    @include img(250px,350px);
 }
 
 .container .card h4{
@@ -116,9 +113,8 @@
 }
 
 .container__logos{
-        width: 100%;
+        @include img(430px, 10%);
         max-width: 1200px;
-        height: 430px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

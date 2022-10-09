@@ -29,19 +29,17 @@
 }
 
 .img__ubi{
-  width: 650px;
-  height: 300px;
+  @include img(300px,650px);
+
 }
 
 .img__grid-1-1{
-  width: 1920px;
-  height: 650px;
-  
+  @include img(650px,1920px);
+
 }
 
 .img__grid-2{
-  width: 970px;
-  height: 260px;
+  @include img(260px,970px);
   padding: 5px 5px 5px 5px;
 }
 .texto{

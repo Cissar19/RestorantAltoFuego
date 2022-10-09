@@ -1,8 +1,8 @@
 .pie-pagina{
-    margin-top: 40px;
-    width: 100%;
     background: map-get($map: $paleta, $key: primario); 
     background: map-get($map: $paleta, $key: secundario);
+    margin-top: 40px;
+    width: 100%;
 }
 
 .pie-pagina .grupo-1{
@@ -16,13 +16,13 @@
 }
 
 .pie-pagina .grupo-1 .box figure{
-    width: 100%;
-    height: 100%;
     @extend .flex;
+    @include img(100%, 100%);
+
 }
 
 .pie-pagina .grupo-1 .box figure img{
-    width: 250px; 
+    @include img(auto, 250px);
 }
 
 .pie-pagina .grupo-1 .box h2{
@@ -45,10 +45,6 @@
     margin-right: 10px;
     text-align: center;
     transition: all 300ms ease;
-}
-
-.pie-pagina .grupo-1 .red-social a:hover{
-    color: aqua;
 }
 
 .pie-pagina .grupo-2{

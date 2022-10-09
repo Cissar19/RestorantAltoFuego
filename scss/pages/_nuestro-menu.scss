@@ -1,6 +1,5 @@
 .img__menu{
-    width: 10px;
-    height: 10px;
+    @include img(10px,10px);
 }
 
 .carta{
