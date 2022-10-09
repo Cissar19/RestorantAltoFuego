@@ -266,7 +266,7 @@
         margin: auto;
         &__mision{
             @include img(550px,100%);
-            max-width: 1200px;
+            max-width: 1300px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -434,7 +434,7 @@
       }
 
 }
-/* -------------------------------------------------------MEDIAS QUERYS (831px - 1079px) :) --------------------------------------------------------------*/
+/* -------------------------------------------------------MEDIAS QUERYS (831px - 1px) :) --------------------------------------------------------------*/
 @media (min-width: 831px)  and (max-width: 1079px) { 
    
     .container{
